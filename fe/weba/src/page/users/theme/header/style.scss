@@ -1,0 +1,56 @@
+.head{
+    width: 100%;
+    height: auto;
+}
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.left{
+width: 70%;
+height: auto;
+margin: auto;
+}
+.left span{
+    width: 100%;
+    height: auto;
+padding-right: 30px;
+color: rgb(95, 86, 86);
+
+}
+.right{
+    width: 30%;
+height: auto;
+margin: auto;
+padding: 10px 0 13px;
+}
+.right ul{
+display: flex;
+font-size: 20px;
+text-decoration: none;
+}
+.right ul li{
+    color: black;
+    list-style: none;
+
+}
+.right ul li:last-child{
+
+    cursor: pointer;
+    margin-left: 20px;
+
+    .right ul span{
+        color: rgb(155, 152, 152);
+        margin: auto;
+    }
+}
+.right ul li a{
+    color: rgb(65, 59, 59);
+    display: inline-block;
+}
+.right ul span{
+            font-size: 15px;
+    margin-left:8px ;
+    color: rgb(61, 54, 54);
+}

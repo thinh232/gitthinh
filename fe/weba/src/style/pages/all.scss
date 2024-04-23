@@ -1,0 +1,19 @@
+@use "sass:map";
+@import "theme";
+
+html,
+body{
+    margin: 0;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: map.get($theme-color,"main");
+    margin: auto;
+}
